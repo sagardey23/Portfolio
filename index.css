@@ -1,0 +1,457 @@
+body{
+    background-color: #F7F7F7;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.parent{
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    background-color: #FBF3E4;
+    border-radius: 20px;
+    position:fixed;
+    padding-top: 5px;
+    padding-left: 20px;
+    display: flex;
+
+}
+.navbar li a {
+     color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.name{
+    margin: 15px 20px;
+    width: 50%;
+    font-family: monospace;
+    color: #105652;
+    font-size: 23px;
+    font-weight: 800;
+
+}
+.list{
+    width: 50%;
+    margin: 15px 20px;
+    font-family: monospace;
+    color: #105652;
+    font-size: 17px;
+    font-weight: 800;
+
+}
+.list li{
+    list-style: none;
+    float: right;
+    padding-right: 50px;
+}
+.intro{
+    background-color: #105652;
+    overflow: auto;
+    padding: 30px;
+    display: flex;
+}
+.introcontent{
+    width: 50%;
+}
+.introimg{
+
+    width: 50%;
+    margin-top: 80px;
+   
+}
+.hirebtn{
+    margin-right: 10px;
+    background-color: #09BEAD;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    border-color: #09BEAD;
+    box-shadow: 10px 5px 40px rgba(3, 241, 150, 0.335);
+}
+.getbtn{
+    margin-right: 10px;
+    background-color: #FCA738;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    border-color: #FCA738;
+    box-shadow: 0px 5px 28px #FCA738;
+}
+.introimg img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.boldintro{
+    font-family: monospace;
+    font-size: 30px;
+    color: #f1810298 ;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.about{
+    background-color: rgb(255, 253, 250);
+     margin: 40px 70px;
+     overflow: auto;
+     border-radius: 15px;
+     display: flex;
+     box-shadow: 10px 5px  40px grey;
+}
+.img2{
+    margin-left: 50px;
+    width: 50%;
+}
+.about2{
+    width: 50%;
+    height: 250px;
+    width: 500px;
+    padding-left: 15px;
+    
+}
+.about2 p{
+    text-align: center;
+}
+.about h1{
+    color: rgb(5, 41, 5);
+ 
+}
+.about hr{
+    height: 5px;
+    width: 150px;
+    background-color: rgb(241, 170, 16);
+    border-radius: 15px;
+}
+.about p{
+    color: rgb(9, 65, 9);
+}
+.tech{
+    height: 70px;
+    width: 250px;
+    padding: 15px;
+    background-color: ivory;
+    border-radius: 15px;
+    box-shadow: 10px 5px 40px grey;
+}
+.port h1{
+    text-align: center;
+}
+.port hr{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(241, 170, 16);
+    justify-content: center;
+    margin: 0px 660px;
+}
+.resume{
+    margin-top: 20px;
+    
+}
+.resume h1{
+    text-align: center;
+}
+.reshr{
+    height: 5px;
+    width: 170px;
+    background-color: rgb(241, 170, 16);
+    margin: 0px 670px ;
+    
+}
+.resume2 hr{
+    height: 3px;
+    width: 450px;
+    background-color: grey;
+    
+}
+.resume2{
+    height: 400px;
+    width: auto;
+    background-color: honeydew;
+    border-radius: 15px;
+    box-shadow: 10px 5px 40px grey;
+    margin: 20px 60px;
+    padding: 60px;
+    display: flex;
+
+}
+.workex{
+    width: 50%;
+    margin-right: 50px;
+}
+.boldwork{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #098d80a9 ;
+    font-weight: 700;
+}
+.litework{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #03383369 ;
+}
+.litework1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #122c2a4b ;
+}
+.litework2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #051413c5 ;
+}
+
+.reimg{
+    width: 50%;
+} 
+.say h1{
+    text-align: center;
+}
+.say hr{
+    height: 5px;
+    width: 30%;
+    background-color: rgb(241, 170, 16);
+    margin: 0px 530px;
+}
+.contact h1{
+    text-align: center;
+}
+.sayabout{
+    height: 550px;
+    width: 90%;
+    margin: auto;
+    background-color: #fdfafad3;
+    display: flex;
+   border-radius: 20px;
+   box-shadow: 10px 5px 40px grey;
+   color: #09BEAD;
+   
+}
+
+.firstp img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.secondp img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 20px;
+}
+.thirdp img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.bold{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #056b61;
+    text-align: center;
+}
+.light{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 70%;
+    color: grey;
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+
+.port2{
+    background-color: honeydew;
+    box-shadow: 10px 5px 30px grey;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    
+    grid: 110px  110px/ auto auto auto;
+
+
+}
+.port img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+
+
+}
+.viewmore{
+    height: 50px;
+    width: 90%;
+    border-radius: 20px;
+   box-shadow: 50px 20px 40px rgba(223, 208, 208, 0.719);
+   text-align: center;
+   margin: auto;
+   padding-top: 15px;
+
+    background-color: rgb(250, 230, 193);
+}
+.viewmore a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(235, 159, 88);
+}
+.contact{
+    margin-top: 20px;
+}
+.contact2{
+    width: 90%;
+    display:flex;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+}
+.connect{
+    background-color: cornsilk;
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+}
+.form{
+    text-align: center;
+    background-color: rgb(245, 227, 184);
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+}
+.send{
+    background-color: rgb(218, 184, 98);
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(255, 238, 139);
+    color: blanchedalmond;
+    
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .intro{
+      width: 100%;
+      display: inline-block;
+
+  }
+  .introcontent{
+    width: 100%;
+    margin: 10px;
+  }
+  .introimg{
+
+    width: 100%;
+    margin-top: 80px;
+   
+}
+.about{
+    display: inline-block;
+}
+.port{
+    display: none;
+}
+.resume{
+    margin-top: 80px;
+}
+ .resume2{
+    display: inline-block;
+     width: 90%;
+
+ }
+ .workex{
+     width: 90%;
+ }
+ .sayabout{
+    display: inline-block;
+ }
+ .secondp{
+     display: none;
+ }
+ .thirdp{
+     display: none;
+ }
+ .contact2{
+    display: inline-block;
+     margin: 10px;
+     border: 2px solid rgb(238, 134, 16);
+ }
+ .connect{
+     width: 90%;
+ }
+ .form{
+     width: 90%;
+    
+ }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .intro{
+        width: 100%;
+        display: inline-block;
+  
+    }
+    .introcontent{
+      width: 100%;
+      margin: 10px;
+    }
+    .introimg{
+  
+      width: 100%;
+      margin-top: 80px;
+     
+  }
+  .about{
+      display: inline-block;
+  }
+  .port{
+      display: none;
+  }
+  .resume{
+      margin-top: 80px;
+  }
+   .resume2{
+      display: inline-block;
+       width: 90%;
+  
+   }
+   .workex{
+       width: 90%;
+   }
+   .sayabout{
+      display: inline-block;
+   }
+   .secondp{
+       display: none;
+   }
+   .thirdp{
+       display: none;
+   }
+   .contact2{
+      display: inline-block;
+       margin: 10px;
+       border: 2px solid rgb(238, 16, 16);
+   }
+   /* .connect{
+       width: 90%;
+   }
+   .form{
+       width: 90%;
+      
+   } */
+  }
